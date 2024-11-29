@@ -1,6 +1,6 @@
 name: Votifier
 main: com.vexsoftware.votifier.Votifier
-version: maven-version-number
+version: 2.0
 description: A plugin that gets notified when votes are made for the server on toplists.
 authors: [blakeman8192, Kramer, Ian]
 api-version: 1.13+ # For those higher versions <3
