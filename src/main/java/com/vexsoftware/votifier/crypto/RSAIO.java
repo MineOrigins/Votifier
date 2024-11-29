@@ -18,6 +18,8 @@
 
 package com.vexsoftware.votifier.crypto;
 
+import jakarta.xml.bind.DatatypeConverter;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -27,8 +29,6 @@ import java.security.PrivateKey;
 import java.security.PublicKey;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
-
-import javax.xml.bind.DatatypeConverter;
 
 /**
  * Static utility methods for saving and loading RSA key pairs.
